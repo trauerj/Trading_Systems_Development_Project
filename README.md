@@ -1,6 +1,6 @@
 # Finance Projects Overview
-* ## Stock price prediction Project (Regression)
-* ## Stock prediction Project (Classifier)
+ ## Stock price prediction Project (Regression)
+ ## Stock prediction Project (Classifier)
 
 * Created a tool that estimates stock prices.
 * Scraped the most active stocks' 5 year history data from yahoo finance using python.
