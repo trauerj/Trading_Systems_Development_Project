@@ -38,7 +38,7 @@ I tried three different models:
 The Random Forest and Gradient Boosting Regressor model got a 0.96 score.
 
 ![Performance](https://github.com/trauerj/Finance_Project/blob/main/image.png)
-_**This figure shows us the predictions compared to the real values.**_
+_**This figure shows us the predictions compared to the real values (test set).**_
 
 ## Conclusion
 This type of project is good for practicing different type of plots (libraries/packeges) and models (E.g. prophet), but not usable in real life scenarios.
