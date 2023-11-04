@@ -48,7 +48,7 @@ In this project I want to predict if the stock price will rise  or fall using Ra
 ## Model Building
 First, I droped the Volume and Stock Splits columns. Date column is the index.
 
-After that, I made two new columns: "Tommorrow" which is  the shifted Close column (-1 shift) and "Target" whose value is 1 if the price went up and 0 if the  price went down.
+After that, I made two new columns: "Tommorrow" column which is  the Close column just shifted (-1 shift) and "Target" column whose value is 1 if the price went up and 0 if the  price went down.
 
 I used the other columns (Close, Open, Volume, High, Low) as predictors.
 
