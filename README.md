@@ -1,4 +1,5 @@
 # Trading systems development Project Overview
+* I [wrote](https://github.com/trauerj/Trading_Systems_Development_Project/blob/main/Traiding_Systems_development.ipynb) three different trading algorithm.
 * The first trading system based on the Exponential Moving Average (EMA) and Moving average convergence/divergence (MACD) indicator.
 * The second algorithm based on a combination of MACD and RSI indicators.
 * The third one based on a combination of  RSI indicator and an other "indicator". The basis of this "indicator" is the Gaussian like distribution of the close price changes.
