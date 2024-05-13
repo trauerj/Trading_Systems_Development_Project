@@ -4,6 +4,7 @@
 * The second algorithm based on a combination of MACD and RSI indicators.
 * The third one based on a combination of  RSI indicator and an other "indicator". The basis of this "indicator" is the Gaussian like distribution of the close price changes.
 
+ - The initial equity was 100000.
  - The final equities are 257398.2, 455316.85 and 645539.03 for first, second and third strategy.
  - Use the whole budget at every trade.
 
