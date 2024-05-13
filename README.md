@@ -1,28 +1,12 @@
-# Finance Projects Overview
- ## Stock price prediction Project (Regression)
- ## Stock prediction Project (Classifier)
-
-* Created two tool. One of these estimates the stock prices (Regressor Project), while the other is try to predict whether the stock price will rise or fall on the next day (Classifier Project).
-* Scraped the most active stocks' 5 year history data from yahoo finance using python.
-* Used Prophet, Random Forest and Gradient Boosting model in the regressor project. In the classifier project I used Random Forest Classifier only.
+# Trading systems development Project Overview
+* 
+* 
+* 
 
 ## Code
 * Python 3 (ipykernel)
 * Packages: pandas, numpy, sklearn, matplotlib, seaborn, plotly, json, bs4, requests, csv, re, io, yfinance, prophet
 
-## Web Scraping
-Write a web scraper to scrape the most active stocks' symbol and history data. I got the following data:
-* Date
-* Open
-* High
-* Low
-* Close
-* Voolume
-* Price
-* Dividens
-* Stock splits
-
-# Stock price prediction Project (Regression)
 ## Model Building
 First, I droped the Volume and Stock Splits columns. Date column is the index.
 
