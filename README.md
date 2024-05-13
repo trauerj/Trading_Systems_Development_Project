@@ -19,18 +19,17 @@ I tried three different strategy:
 
 * The first algorithm buy ETFs if the Signal line cross the MACD line from below and the Signal line value on the day before is less than -1.5. If the Signal line cross the MACD line from above and the Signal line value on the day before is greater than 1.5 then sell the ETFs.
 * For the second system, I added an other condition to buy or sell ETFs. If the current RSI value is higher than 75 then buy ETFs. If the RSI value lower than 25 then sell ETFs.
-* The third algorithm used the RSI indicator on the same way as the second did, but I wrote an additional condition to buy or sell ETFs. If the Close price changes are higher than the standard deviation of price changes on the last two days then buy ETFs. If the Close price changes are lower than the standard deviation of price changes on the last three days then sell ETFs.
+* The third algorithm used the RSI indicator on the same way as the second did, but I wrote an additional condition to buy or sell ETFs. If the Close price changes are higher than 1.5 times the standard deviation of price changes on the last two days then buy ETFs. If the Close price changes are lower than 1.5 times the standard deviation of price changes on the last three days then sell ETFs.
 
 ![Performance](https://github.com/trauerj/Trading_Systems_Development_Project/blob/main/dist_plot.png)
 
-### Meaning of the "own indicator"
-The thought behind the 
-
 ## Strategy Performance
 
+|      Strategy      | Final Equity | Profit | Final Equity/Benchmark [%] |
+|----------------:|------|------|------|
+|MACD| 257398.2 | 157398.2 | ~ 46% |
+|RSI & MACD | 455316.85 | 355316.85 | ~ 82% |
+|RSI & "own"| 645539.03 | 545539.03 | ~ 116% |
 
-![Performance](https://github.com/trauerj/Trading_Systems_Development_Project/blob/main/Equity_Curves.png)
+![Performance](https://github.com/trauerj/Trading_Systems_Development_Project/blob/main/Equity_curves.png)
 _**This figure shows us the Equity curves of the different algorithms.**_
-
-## Conclusion
-
